@@ -1,0 +1,58 @@
+body{
+    background-color: #eee;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fundo{
+    background-color: rgb(181, 231, 152);
+    width:600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    border:12px solid darkgreen;
+}
+.plat_inf{
+    height:30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display:flex;
+    justify-content:space-around;
+}
+.plat_sup{
+    color:indigo;
+    height:30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size:60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:flex;
+    justify-content:space-around;
+
+}
+.divisor{
+    background-color: #000;
+    color:#fff;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    height: 45px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+label{
+    cursor: pointer;
+}
+
+.inimigo{
+    transform : scaleY(-1);
+    position: absolute;
+}
+
+.disabled {
+    pointer-events: none;
+} 
